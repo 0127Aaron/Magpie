@@ -24,5 +24,16 @@ public class StringExplorer
 		System.out.println ("sample.toLowerCase() = " + upperCase);
 		System.out.println ("After toLowerCase(), sample = " + sample);
 		System.out.println (sample.length());
+		
+		//experiment with compareTo
+		String example1 = "U";
+		String example2 = "p";
+		System.out.println(example1.compareTo(example2));
+		
+		//experiment with substring
+		String starter = "stater middle end";
+		int psn1 = starter.indexOf("middle");
+		System.out.println(starter.substring(psn1,psn1+6)); //
+		
 	}
 }
